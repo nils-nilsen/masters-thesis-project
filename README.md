@@ -1,5 +1,5 @@
 
-# Supplementary Material for My Master's Thesis
+# Supplementary Material for my Master's Thesis
 
 ## Overview
 
