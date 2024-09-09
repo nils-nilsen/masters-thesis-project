@@ -11,7 +11,7 @@ The audio files used in the master's thesis are also in the repository in the au
 
 ## Unity
 
-To test and use the applications tokens for Photon Voice 2 and Photon Fusion 2 are needed. You can get them a the Photon Engine Website.
+To test and use the applications tokens for Photon Voice 2 and Photon Fusion 2 are needed. You can get them at the Photon Engine Website.
 
 Each `.unitypackage` file can be imported into a Unity project to quickly add the contents.
 
