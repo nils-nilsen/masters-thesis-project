@@ -9,6 +9,7 @@ This repository contains Unity packages, which include the applications I develo
 
 The audio files used in the master's thesis are also in the repository in the audio-files directory.
 
+![Screenshots VR App](images/vr-screenshots.png)
 ## Unity
 
 To test and use the applications tokens for Photon Voice 2 and Photon Fusion 2 are needed. You can get them at the Photon Engine Website.
