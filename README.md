@@ -21,3 +21,9 @@ The smartphone applications run on iOS, the VR apps on Meta Quest 2. There seems
 
 The code for the real-time tracking system can be found
 [here](https://github.com/nils-nilsen/human-apriltag-tracking).
+
+
+## License
+This project is licensed under the MIT License, which allows for free use, modification, and distribution of the project, as long as the following conditions are met:
+
+- Respect the Rights of Third-Party Frameworks and Libraries: While this project itself is distributed under the MIT License, it may include or depend on third-party frameworks, libraries, or packages that are subject to different licenses. It is your responsibility to comply with the respective licensing terms of any external components used in this project.
