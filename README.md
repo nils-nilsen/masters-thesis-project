@@ -57,7 +57,7 @@ The GameObject contains several scripts:
 The `VRSoundInteraction` script handles player sound interactions in the application environment. The main functionalities include:
 
 - **Area-Based Sound Interaction:** The player’s proximity to two areas (in this cas a carpet and a table) is tracked. When the player enters or exits these areas, different sounds are triggered using RPC calls through the PlaySoundRPC component. The exit sound is in this case the sound of walking on a wooden floor.
-- **Multiplayer Setup:** The script waits for the multiplayer environment to be initialized and only activates when the `PlaySoundRPC` component is available. Once multiplayer is ready, an exit sound is played automatically.
+- **Multiplayer Setup:** The script waits for the multiplayer environment to be initialized and only activates when the `PlaySoundRPC` component is available. Once multiplayer is ready, an sound is played automatically.
 - **Player Movement Detection:** The player's position is constantly monitored, and sound interactions are updated when the player moves beyond a defined threshold distance.
 - **Dynamic Area Indicators:** Planes are dynamically placed in the environment to represent the defined interaction areas, with different colors indicating different areas (e.g., red for the carpet, green for the table). _For debugging purpose._
 
