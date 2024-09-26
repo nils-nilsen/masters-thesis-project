@@ -22,7 +22,7 @@ Each `.unitypackage` file can be imported into a Unity project to add the conten
 
 The apps are as packages in the git repo, as this is the easiest and fastest way to run the apps. The complete Unity projects take up too much space.
 
-The easiest way to run the VR applications is to create a new project with the "VR "template in Unity and import the packages there. The template already contains all the required dependencies such as the XR Interaction Toolkit.
+The easiest way to run the VR applications is to create a new project with the "VR" template in Unity and import the packages there. The template already contains all the required dependencies such as the XR Interaction Toolkit.
 
 The same applies to the smartphone apps. There should be used the template "2D Mobile".
 
@@ -30,7 +30,7 @@ The smartphone applications run on iOS, the VR apps on Meta Quest 2. There seems
 
 ### Usage
 
-To run the applications, the scene "**TestScene**" must be selected in the Unity projects. The VR and the mobile applications can be run in Unity.
+To run the applications, the scene **"TestScene"** must be selected in the Unity projects. The VR and the mobile applications can be run in Unity.
 In each case, one VR application and one mobile application belong together (e.g. [direct-audio-smartphone-app](direct-audio-smartphone-app) <-> [direct-audio-vr-app](direct-audio-vr-app)).
 
 The smartphone application must be started first because of the player reference (mobile user has to be player 1) for the remote procedure calls (only important for the indirect audio app).
