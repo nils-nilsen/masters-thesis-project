@@ -37,7 +37,7 @@ The smartphone application must be started first because of the player reference
 
 #### Experiment
 
-To conduct the experiment as in my master's thesis, the smartphone app must be deployed on a smartphone. I used an iPhone 8 Plus. The [Tracking System](https://github.com/nils-nilsen/human-apriltag-tracking) must be used to track the person in the real room. The position is sent to the smartphone via UDP. The local IP address of the smartphone must be set in the tracking system code to send the data to the correct application. If you want to test the smartphone application with the tracking yystem in Unity, you can use your local IP address `127.0.0.1.`.
+To conduct the experiment as in my master's thesis, the smartphone app must be deployed on a smartphone. I used an iPhone 8 Plus. The [Tracking System](https://github.com/nils-nilsen/human-apriltag-tracking) must be used to track the person in the real room. The position is sent to the smartphone via UDP. The local IP address of the smartphone must be set in the tracking system code to send the data to the correct application. If you want to test the smartphone application with the tracking system in Unity, you can use your local IP address `127.0.0.1.`.
 
 Each pair of applications is one condition in the experiment:
  - **Direct Audio:** [Direct Audio - Smartphone-App](direct-audio-smartphone-app) <-> [Direct Audio - VR-App](direct-audio-vr-app)
