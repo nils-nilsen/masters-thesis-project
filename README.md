@@ -18,7 +18,7 @@ I have used Unity version 2022.3.22, but it should work in version 2022.3.51 too
 
 It is important to **clone** the repository and not to download it as a ZIP because of the LFS system. Git LFS must be installed to ensure that large files are downloaded correctly.
 
-Each `.unitypackage` file can be imported into a Unity project to add the contents.
+Each `.unitypackage` file can be imported into a Unity project to add the contents. Click on _'Assets'_ in the top bar, then on _'Import Package'_, then on _'Custom Package...'_ and select the relevant package. I would recommend creating a separate app for each package.
 
 The apps are as packages in the git repo, as this is the easiest and fastest way to run the apps. The complete Unity projects take up too much space.
 
