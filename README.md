@@ -18,11 +18,11 @@ I have used Unity version 2022.3.22, but it should work in version 2022.3.51 too
 
 It is important to **clone** the repository and not to download it as a ZIP because of the LFS system. Git LFS must be installed to ensure that large files are downloaded correctly.
 
-Each `.unitypackage` file can be imported into a Unity project to add the contents. Click on _'Assets'_ in the top bar, then on _'Import Package'_, then on _'Custom Package...'_ and select the relevant package. I would recommend creating a separate app for each package.
+Each `.unitypackage` file can be imported into a Unity project to add the contents.
 
 The apps are as packages in the git repo, as this is the easiest and fastest way to run the apps. The complete Unity projects take up too much space.
 
-The easiest way to run the VR applications is to create a new project with the "VR" template in Unity and import the packages there. The template already contains all the required dependencies such as the XR Interaction Toolkit.
+The easiest way to run the VR applications is to create a new projects with the "VR" template in Unity and import the packages there. The template already contains all the required dependencies such as the XR Interaction Toolkit. Click on _'Assets'_ in Unity at the top bar, then on _'Import Package'_, then on _'Custom Package...'_ and select the relevant package. I would recommend creating a separate app for each package.
 
 The same applies to the smartphone apps. There should be used the template "2D Mobile".
 
@@ -100,12 +100,11 @@ The scripts for the RPC from the VR app are the same. A key feature of the mobil
 
 The `PlayerProximityChecker` script manages proximity-based voice chat and radar feedback between players in a multiplayer environment. The `Update()` function automatically enables voice chat when players are within the defined `proximityDistance` and disables it when they move apart, while also controlling the state of the voice chat button. The radar feedback system, managed by the `StartRadar()` function, plays a radar ping using `PlayRadarPing()` at intervals that decrease as the players get closer. The `GetDistanceBetweenPlayers()` function calculates the 2D distance between players to control both the voice chat and radar systems.
 
-
-![VR APP Gif](images/vr-app.gif)
-
 ## Video
 
 A video of the prototype can be found on [Youtube](https://youtu.be/LO0nUNsAlCQ).
+
+![VR APP Gif](images/vr-app.gif)
 
 ## Real-Time Tracking System
 
