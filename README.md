@@ -76,7 +76,7 @@ The `PlayerProximityChecker` script automatically manages the activation of voic
 
 - **Proximity-Based Voice Chat:** The script calculates the distance between two players and activates voice chat if they are within a specified proximity. If they move too far apart, the voice chat is automatically disabled.
 - **Multiplayer Initialization:** The script continuously checks if two players are present in the scene and only starts managing proximity once both players have joined. If a player leaves, the voice chat is deactivated, and the script resets to await two players again.
-- **Button Toggle Control:** When the players are close enough to each other, the script disables the manual voice chat toggle button, ensuring that the proximity rule takes precedence. Once they are far apart again, the button is re-enabled (Button is used for testing purposes).
+- **Button Toggle Control:** When the players are close enough to each other, the script disables the manual voice chat toggle button, ensuring that the proximity rule takes precedence. Once they are far from each other again, the button is re-enabled (Button is used for testing purposes).
 
 #### PlaySoundRPC
 
